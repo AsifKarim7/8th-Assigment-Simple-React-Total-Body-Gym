@@ -30,9 +30,11 @@
 
 .btn-details {
     width: 80%;
-    background: #FFE0B3;
+    background: #6ec1f1;
     border: none;
     border-radius: 8px;
+    font-weight: 700;
+    font-size: 15px;
 }
 
 .btn-details:hover {
