@@ -1,0 +1,40 @@
+.workout {
+    width: 370px;
+    height: 600px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+}
+
+.workout img {
+    width: 356px;
+    height: 286px;
+    border-radius: 8px;
+    margin: 7px;
+}
+
+.workout-info {
+    margin: 0 14px;
+}
+
+.workout-info p {
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.btn-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.btn-details {
+    width: 80%;
+    background: #FFE0B3;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-details:hover {
+    background: #7FE5F0;
+}

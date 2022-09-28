@@ -3,7 +3,7 @@
         "id": "1",
         "img": "https://www.hussle.com/blog/wp-content/uploads/2020/05/Deadlift-body-change-1200x900.png",
         "name": "Deadlift",
-        "info": "Hold the bar with hands shoulder-width apart. Start with your arms straight and knees slightly bent. Keeping your chest up and your back straight, drive down through your heels and pull the bar up your legs, pushing your hips forwards to stand tall.",
+        "info": "Hold the bar with hands shoulder-width apart. Start with your arms straight and knees slightly bent. Keeping your chest up and your back straight.",
         "time": 60,
         "age": "25-30"
     },
@@ -11,7 +11,7 @@
         "id": "2",
         "img": "https://hips.hearstapps.com/hmg-prod/images/hdm119918mh16114-1542293707.png",
         "name": "Dumbbell Bench Press",
-        "info": "Lie on a flat bench, holding dumbbells with an overhand grip either side of your chest. Drive your feet hard into the floor and press the weights straight up, then lower them slowly to the start position.",
+        "info": "Lie on a flat bench, holding dumbbells with an overhand grip either side of your chest. Drive your feet hard into the floor and press the weights straight up.",
         "time": 30,
         "age": "20-30"
     },
@@ -19,7 +19,7 @@
         "id": "3",
         "img": "https://images.squarespace-cdn.com/content/v1/5020b649e4b03f6f4d19970a/1598816310007-EP2C4L6CBZEJMDZQEP51/Push+Up+Workout+%281%29.png?format=1500w",
         "name": "Press-up",
-        "info": "Support your weight on your hands and toes, with your arms extended, hands directly under your shoulders, legs together and core engaged throughout.",
+        "info": "Support your weight on your hands and toes, with your arms extended, hands directly under your shoulders, legs together.",
         "time": 90,
         "age": "18-35"
     },
@@ -27,7 +27,7 @@
         "id": "4",
         "img": "https://post.healthline.com/wp-content/uploads/2020/08/man_squat_outdoors-732x549-thumbnail-732x549.jpg",
         "name": "Squat",
-        "info": "Stand with your feet shoulder-width apart, toes pointed out slightly and your back straight. Bend your knees and push your hips back, lowering until your hips are below your knees.",
+        "info": "Stand with your feet shoulder-width apart, toes pointed out slightly and your back straight. Bend your knees and push your hips back.",
         "time": 75,
         "age": "18-30"
     },
@@ -35,7 +35,7 @@
         "id": "5",
         "img": "https://www.dmarge.com/wp-content/uploads/2022/05/how-to-do-leg-extension.jpg",
         "name": "Leg extension",
-        "info": "Once seated in the machine with the weight selected, extend your legs using your quads, stopping just before you lock your knee out. Slowly lower the weight back to the start.",
+        "info": "Once seated in the machine with the weight selected, extend your legs using your quads, stopping just before you lock your knee out.",
         "time": 60,
         "age": "20-40"
     },
@@ -43,7 +43,7 @@
         "id": "6",
         "img": "https://www.muscleandfitness.com/wp-content/uploads/2019/12/Fit-Man-Performing-A-Pullup-In-The-Park.jpg?quality=86&strip=all",
         "name": "Pull-up",
-        "info": "To perform a pullup, you start by hanging onto a pullup bar with your palms facing away from you and your body extended fully. You then pull yourself up until your chin is above the bar.",
+        "info": "To perform a pullup, you start by hanging onto a pullup bar with your palms facing away from you and your body extended fully.",
         "time": 45,
         "age": "20-35"
     }
