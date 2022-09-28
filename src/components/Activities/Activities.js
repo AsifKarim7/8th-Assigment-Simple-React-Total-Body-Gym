@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import Details from '../Details/Details';
 import Workout from '../Workout/Workout';
 import './Activities.css';
 
 const Activities = () => {
     const [workouts, setWorkouts] = useState([]);
+    const [details, setDetails] = useState([]);
 
     useEffect(() => {
         fetch('workouts.json')
@@ -12,7 +14,8 @@ const Activities = () => {
     }, [])
 
     const handleAddToDetails = (workout) => {
-        console.log(workout);
+        const newDetails = [...details, workout];
+        setDetails(newDetails);
     }
 
     return (
@@ -30,7 +33,9 @@ const Activities = () => {
             </div>
 
             <div className='details-container'>
-                <h3>hello details</h3>
+                <Details
+                    details={details}
+                ></Details>
             </div>
 
         </div>
