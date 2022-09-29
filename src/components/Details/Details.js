@@ -12,12 +12,13 @@ const Details = (props) => {
         exerciseTime = exerciseTime + exercise.time;
     }
 
-    let [breakTime, setBreak] = useState(0);
+
+    const [breakTime, setBreak] = useState(localStorage.getItem('breaktime'));
+
     const handleAddBreakTime = (btnValue) => {
         setBreak(btnValue)
         localStorage.setItem('breaktime', btnValue)
     }
-    breakTime = localStorage.getItem('breaktime');
 
 
 
