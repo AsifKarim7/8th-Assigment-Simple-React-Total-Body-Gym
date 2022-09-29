@@ -16,6 +16,22 @@
     text-align: center;
 }
 
+@media screen and (min-width: 651px) and (max-width: 992px) {
+    .activities-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .workouts-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin: 100px 0px;
+
+    }
+
+}
+
 @media screen and (min-width: 200px) and (max-width: 650px) {
 
     .activities-container {
