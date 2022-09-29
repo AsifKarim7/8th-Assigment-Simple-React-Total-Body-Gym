@@ -1,0 +1,9 @@
+.blogs {
+    border: 1px solid #7FE5F0;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.blog-container {
+    padding: 30px;
+}
