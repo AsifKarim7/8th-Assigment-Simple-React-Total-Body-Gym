@@ -1,5 +1,63 @@
-.details {
-    position: sticky;
-    top: 0;
-    padding: 30px 20px;
+.details-head-div {
+    margin: 20px 30px;
+    margin-bottom: 40px;
+    padding: 10px 15px;
+    background-color: #CAEBF2;
+    border-radius: 10px;
+}
+
+.break-btn {
+    margin: 20px 30px;
+    margin-bottom: 40px;
+    padding: 30px 0;
+    background-color: #CAEBF2;
+    border-radius: 10px;
+}
+
+.break-btn button {
+    margin: 0 3px;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 80%;
+}
+
+.break-btn button:hover {
+    background-color: #6ec1f1;
+}
+
+.exercise-time {
+    font-size: 20px;
+    margin: 15px 30px;
+    padding: 2px;
+    background-color: #CAEBF2;
+    border-radius: 10px;
+}
+
+.break-time {
+    font-size: 20px;
+    margin: 15px 30px;
+    padding: 2px;
+    background-color: #CAEBF2;
+    border-radius: 10px;
+}
+
+.details-extra-header {
+    margin-left: 30px;
+    text-align: start !important;
+}
+
+.toast-btn {
+    font-size: 18px;
+    padding: 15px 85px;
+    background: #6ec1f1;
+    border: none;
+    border-radius: 8px;
+}
+
+.toast-btn:hover {
+    background-color: #7FE5F0;
+}
+
+.toast-btn-div {
+    margin-top: 50px;
 }

@@ -1,6 +1,7 @@
 .activities-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
+    background-color: #CAEBF2;
 }
 
 .workouts-container {
@@ -11,5 +12,6 @@
 }
 
 .details-container {
-    background-color: rgba(255, 153, 0, 0.3);
+    background-color: white;
+    text-align: center;
 }
