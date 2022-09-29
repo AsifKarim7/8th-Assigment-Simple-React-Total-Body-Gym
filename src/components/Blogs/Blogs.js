@@ -14,14 +14,15 @@ const Blogs = () => {
             </div>
             <div className='blog-container'>
                 <h2>What are the usage of useEffect except data loading in react-js?</h2>
-                <p>There are five more cases to use useEffect :-
-                    <ol>
-                        <li>Running on state change: validating input field.</li>
-                        <li>Running on state change: live filtering.</li>
-                        <li>Running on state change: trigger animation on new array value.</li>
-                        <li>Running on props change: update paragraph list on fetched API data update.</li>
-                        <li>Running on props change: updating fetched API data to get BTC updated price.</li>
-                    </ol></p>
+                <p>There are five more cases to use useEffect :
+                </p>
+                <ol>
+                    <li>Running on state change: validating input field.</li>
+                    <li>Running on state change: live filtering.</li>
+                    <li>Running on state change: trigger animation on new array value.</li>
+                    <li>Running on props change: update paragraph list on fetched API data update.</li>
+                    <li>Running on props change: updating fetched API data to get BTC updated price.</li>
+                </ol>
             </div>
         </div>
     );

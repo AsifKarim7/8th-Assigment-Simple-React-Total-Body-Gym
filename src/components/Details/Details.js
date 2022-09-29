@@ -12,10 +12,14 @@ const Details = (props) => {
         exerciseTime = exerciseTime + exercise.time;
     }
 
-    const [breakTime, setBreak] = useState(0);
+    let [breakTime, setBreak] = useState(0);
     const handleAddBreakTime = (btnValue) => {
         setBreak(btnValue)
+        localStorage.setItem('breaktime', btnValue)
     }
+    breakTime = localStorage.getItem('breaktime');
+
+
 
     const handleCompleteBtn = () => toast.info("Congratulations. You Completed Today's Activity.");
 
